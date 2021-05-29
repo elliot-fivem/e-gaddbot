@@ -1,0 +1,63 @@
+body {
+    background-image: url(gaddrl.jpg);
+    background-size: cover;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#text {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+h1 {
+    display: inline;
+    font-size: 3vw;
+}
+
+.navitem{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-size: 2vw;
+    width: 10vw;
+    transition: 100ms;
+    text-align: center;
+    border-style: none;
+}
+
+#contact {
+    position: absolute;
+    top: 5%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    margin-left: 1rem;
+}
+
+#about {
+    position: absolute;
+    top: 5%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+    color: #F98E29;
+}
+
+#home {
+    position: absolute;
+    top: 5%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+}
+
+.navitem:hover {
+    color: #F98E29;
+    border-style: solid;
+    border-color: #F98E29;
+    cursor: pointer;
+}

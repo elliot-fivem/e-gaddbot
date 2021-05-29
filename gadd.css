@@ -1,0 +1,166 @@
+body {
+    background-image: url(gaddrl.jpg);
+    background-size: cover;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#text {
+    width: 80vw;
+    height: 80vh;
+}
+
+h1 {
+    transition: 600ms;
+}
+
+#elias {
+    position: absolute;
+    color: white;
+    font-size: 20vh;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #005ADC;
+}
+
+#bot {
+    position: absolute;
+    color: white;
+    font-size: 20vh;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F98E29;
+    display: none;
+}
+
+h2 {
+    display: inline;
+    position: absolute;
+    color: white;
+    font-size: 10vh;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #7B00A6;
+}
+
+#rl {
+    color: #F98E29;
+}
+
+#and {
+    color: #005ADC;
+}
+
+#icons {
+    display: flex;
+    position: absolute;
+    color: white;
+    top: 90%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    list-style-type: none;
+}
+
+#list-link i{
+    font-size: 3vw;
+    color: white;
+    margin-left: 5vw;
+}
+
+#list-link:hover i {
+    color: #F98E29;
+}
+
+.navitem{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-size: 2vw;
+    width: 10vw;
+    transition: 100ms;
+    text-align: center;
+    border-style: none;
+}
+
+#contact {
+    position: absolute;
+    top: 5%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    margin-left: 1rem;
+}
+
+#about {
+    position: absolute;
+    top: 5%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+}
+
+#home {
+    position: absolute;
+    top: 5%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+    color: #F98E29;
+}
+
+.navitem:hover {
+    color: #F98E29;
+    border-style: solid;
+    border-color: #F98E29;
+    cursor: pointer;
+}
+
+#titel:hover {
+    cursor:crosshair;
+}
+
+#titel:hover #elias {
+    display: none;
+}
+
+#titel:hover #bot {
+    display: inline;
+}
+
+#code {
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3vw;
+    color: white;
+    background-color: #22A7E5;
+    padding: 1vw;
+
+    border-radius: 1vw;
+    border-left: #0073A8;
+    border-bottom: #0073A8;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+
+    transition: 500ms;
+}
+
+#code:hover {
+    background-color: #F98E29;
+    border-left: white;
+    border-bottom: white;
+}
